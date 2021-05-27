@@ -1,0 +1,32 @@
+body {
+height: auto;
+width: auto;
+background: #D8D8D8;
+background-size: cover;
+  padding: 16px;
+}
+
+#chat {
+  max-height: calc(100vh - 128px);
+  padding: 16px;
+}
+
+.name {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.content {
+  margin-bottom: 8px;
+}
+.MuiAppBar-colorPrimary {
+  color: #fff;
+background: #7A7A7A !important;
+background: -webkit-linear-gradient(top left, #7A7A7A, #1C1C1C);
+background: -moz-linear-gradient(top left, #7A7A7A, #1C1C1C);
+background: linear-gradient(to bottom right, #7A7A7A, #1C1C1C);
+}
+
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: #888 !important;
+}
